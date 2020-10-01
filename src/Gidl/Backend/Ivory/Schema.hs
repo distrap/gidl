@@ -2,7 +2,6 @@
 
 module Gidl.Backend.Ivory.Schema where
 
-import Data.Monoid
 import Data.List (intercalate, nub)
 import Data.Char (toUpper)
 

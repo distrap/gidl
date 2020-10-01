@@ -2,7 +2,6 @@
 
 module Gidl.Backend.Haskell.Types where
 
-import Data.Monoid
 import Data.List (intercalate, nub)
 import Data.Char (toUpper)
 import Gidl.Types

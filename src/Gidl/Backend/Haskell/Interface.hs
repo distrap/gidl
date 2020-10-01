@@ -3,7 +3,6 @@
 module Gidl.Backend.Haskell.Interface where
 
 
-import Data.Monoid
 import Data.List (intercalate, nub)
 import Data.Char (toUpper)
 

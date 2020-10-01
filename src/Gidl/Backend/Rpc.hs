@@ -24,7 +24,7 @@ import Ivory.Artifact
            ,artifactCabalFile)
 import Ivory.Artifact.Template (artifactCabalFileTemplate)
 import Text.PrettyPrint.Mainland
-           (Doc,prettyLazyText,text,empty,(<+>),(</>),(<>),char,line,parens
+           (Doc,prettyLazyText,text,empty,(<+>),(</>),char,line,parens
            ,punctuate,stack,tuple,dot,spread,cat,hang,nest,align,comma
            ,braces,brackets,dquotes)
 

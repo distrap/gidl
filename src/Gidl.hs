@@ -25,9 +25,12 @@ import Gidl.Backend.Rpc (rpcBackend)
 import Gidl.Backend.Tower
 
 data OptParser opt = OptParser [String] (opt -> opt)
+
+instance Semigroup (OptParser opt) where
+  OptParser as f <> OptParser bs g = OptParser (as ++ bs) (f . g)
+
 instance Monoid (OptParser opt) where
   mempty = OptParser [] id
-  OptParser as f `mappend` OptParser bs g = OptParser (as ++ bs) (f . g)
 
 success :: (opt -> opt) -> OptParser opt
 success  = OptParser []

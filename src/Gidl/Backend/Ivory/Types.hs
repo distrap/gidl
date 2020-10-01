@@ -2,7 +2,6 @@
 
 module Gidl.Backend.Ivory.Types where
 
-import Data.Monoid
 import Data.List (intercalate, nub)
 import Data.Char (toUpper, toLower)
 import Gidl.Types

@@ -2,7 +2,6 @@
 module Gidl.Backend.Tower.Server where
 
 
-import Data.Monoid
 import Data.List (intercalate, nub)
 
 import Gidl.Interface
